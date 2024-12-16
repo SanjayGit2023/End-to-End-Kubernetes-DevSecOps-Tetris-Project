@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: tetris
-        image: san21doc/tetrisv1:latest
+        image: san21doc/tetrisv1:imageTag
         ports:
         - containerPort: 3000
 ---
